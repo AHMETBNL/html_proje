@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Örnek 4: Toplama İşlemi</title>
+</head>
+<body>
+    <h2>Basit Toplama Makinesi</h2>
+    <button onclick="toplamaYap()">Toplama Yap</button>
+
+    <script>
+        function toplamaYap() {
+            let sayi1_metin = prompt("Birinci sayıyı giriniz:");
+            let sayi2_metin = prompt("İkinci sayıyı giriniz:");
+
+            // prompt'tan gelen değerler metin (string) olduğu için sayıya çevirmeliyiz.
+            let sayi1 = parseInt(sayi1_metin);
+            let sayi2 = parseInt(sayi2_metin);
+
+            let toplam = sayi1 + sayi2;
+
+            alert("İki sayının toplamı: " + toplam);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+        h1
+        
+          {
+            color:rgb(4, 163, 255)
+            
+          }
+          p
+          {
+            color: gray;
+          }
+          body
+          {
+            background-color: #f4f4f4;
+            margin:30px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-align:center;
+            line-height: 2;
+            
+          }
+          
